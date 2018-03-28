@@ -1,0 +1,183 @@
+body {
+    background-color: azure;
+}
+
+header {
+    background-color: darkgrey;
+    padding: 0px;
+    margin: 0px;
+    color: greenyellow;
+
+}
+
+header h1 {
+    font-family: "Yu Gothic UI";
+    text-align: center;
+}
+
+.load {
+    position: absolute;
+    right: 670px;
+    background-color: darkgrey;
+    color: greenyellow;
+    height: 45px;
+    width: 100px;
+    font-family: "Yu Gothic UI";
+}
+
+.form-style-6 {
+    font: 95% "Yu Gothic UI";
+    max-width: 300px;
+    margin: 10px;
+    padding: 16px;
+    background: #F7F7F7;
+}
+
+.form-style-6 h1 {
+    background: darkgrey;
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: greenyellow;
+    margin: -16px -16px 16px -16px;
+}
+
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select {
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus {
+    box-shadow: 0 0 5px greenyellow;
+    padding: 3%;
+    border: 1px solid greenyellow;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: darkgrey;
+    border-bottom: 2px solid darkgrey;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: greenyellow;
+}
+
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover {
+    background: greenyellow;
+}
+
+
+
+
+
+ul li {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.books {
+    font: 95% "Yu Gothic UI";
+    max-width: 300px;
+    margin: 10px;
+    padding: 16px;
+    background: #F7F7F7;
+    display: inline-block;
+}
+
+.books input[type="text"],
+.books input[type="date"],
+.books input[type="datetime"],
+.books input[type="email"],
+.books input[type="number"],
+.books input[type="search"],
+.books input[type="time"],
+.books input[type="url"],
+.books textarea,
+.books select {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 95% Arial, Helvetica, sans-serif;
+}
+
+.booksbooks input[type="text"]:focus,
+.books input[type="date"]:focus,
+.books input[type="datetime"]:focus,
+.books input[type="email"]:focus,
+.books input[type="number"]:focus,
+.books input[type="search"]:focus,
+.books input[type="time"]:focus,
+.books input[type="url"]:focus,
+.books textarea:focus,
+.books select:focus {
+    box-shadow: 0 0 5px greenyellow;
+    padding: 3%;
+    border: 1px solid greenyellow;
+}
+
+.books input[type="submit"],
+.books input[type="button"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: darkgrey;
+    border-bottom: 2px solid darkgrey;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: greenyellow;
+}
+
+.books input[type="submit"]:hover,
+.books input[type="button"]:hover {
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+    <link rel="stylesheet" href="books.css">
+    <script src="../jquery-3.3.1.min.js"></script>
+    <script src="books.js"></script>
+</head>
+<body>
+<header>
+    <h1>Books</h1>
+</header>
+<main>
+    <input class="load" type="submit" value="Load all books"/>
+    <div class="form-style-6">
+        <h1><strong>Create a book</strong></h1>
+        <form>
+            <input id="title" type="text" name="field1" placeholder="Title"/>
+            <input id="author" type="email" name="field2" placeholder="Author"/>
+            <textarea id="isbn" name="field3" placeholder="ISBN"></textarea>
+            <input id="submit" type="submit" value="Create"/>
+        </form>
+    </div>
+    <ul id="books" type="none">
+    </ul>
+</main>
+<script>
+    attach();
+</script>
+</body>
+</html>
