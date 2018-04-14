@@ -1,0 +1,8 @@
+{{#each messages}}
+    <tr data-id="{{_id}}">
+        <td>{{recipient_username}}</td>
+        <td>{{text}}</td>
+        <td>{{date}}</td>
+        <td><button class="deleteBtn">Delete</button></td>
+    </tr>
+{{/each}}
