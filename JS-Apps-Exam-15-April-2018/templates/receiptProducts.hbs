@@ -1,0 +1,56 @@
+<h1>Create Receipt</h1>
+<div class="table">
+    <div class="table-head" data-id="{{receiptId}}">
+        <div class="col wide">Product Name</div>
+        <div class="col wide">Quantity</div>
+        <div class="col wide">Price per Unit</div>
+        <div class="col">Sub-total</div>
+        <div class="col">Action</div>
+    </div>
+    <div id="active-entries">
+        {{#each products}}
+            <div class="row" data-id="{{_id}}">
+                <div class="col wide">{{type}}</div>
+                <div class="col wide">{{qty}}</div>
+                <div class="col wide">{{price}}</div>
+                <div class="col">{{totalPrice}}</div>
+                <div class="col right">
+                    <a href="#" class="btnDelete">&#10006;</a>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+    <div class="row">
+        <form id="create-entry-form">
+            <div class="col wide">
+                <input name="type" placeholder="Product name">
+            </div>
+            <div class="col wide">
+                <input name="qty" placeholder="Quantity">
+            </div>
+            <div class="col wide">
+                <input name="price" placeholder="Price per Unit">
+            </div>
+            <div class="col">Sub-total</div>
+            <div class="col">
+                <input id="addItemBtn" type="submit" value="Add"/>
+            </div>
+        </form>
+    </div>
+    <div class="table-foot">
+        <form id="create-receipt-form">
+            <div class="col wide">
+            </div>
+            <div class="col wide">
+            </div>
+            <div class="col wide right">Total:</div>
+            <div class="col">{{sum}}</div>
+            <div class="col">
+                <input id="checkoutBtn" type="submit" value="Checkout"/>
+            </div>
+            <input type="hidden" name="receiptId" id="receiptId"/>
+            <input type="hidden" name="productCount" id="productCount"/>
+            <input type="hidden" name="total" id="totalSum"/>
+        </form>
+    </div>
+</div>
